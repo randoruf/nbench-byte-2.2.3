@@ -1,0 +1,28 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/haohua/Downloads/nbench-byte-2.2.3'
+clang -g -O3 -Wall -I/usr/local/opt/llvm/include -L/usr/local/opt/llvm/lib  pointer.c   -o pointer
+clang  -DLINUX  -g -O3 -Wall\
+		-o pointer pointer.c
+rm -f pointer.h
+if [ "4" = `./pointer` ] ; then touch pointer.h ;\
+	else echo "#define LONG64" >pointer.h ; fi
+clang  -DLINUX  -g -O3 -Wall\
+		-c emfloat.c
+ 
+clang  -DLINUX  -g -O3 -Wall\
+		-c misc.c
+./sysinfo.sh clang  -DLINUX  -g -O3 -Wall
+./sysinfo.sh clang  -DLINUX  -g -O3 -Wall
+clang  -DLINUX  -g -O3 -Wall\
+		-c nbench0.c
+clang  -DLINUX  -g -O3 -Wall\
+		-c nbench1.c
+clang  -DLINUX  -g -O3 -Wall\
+		-c sysspec.c
+clang  -DLINUX  -g -O3 -Wall\
+		-c hardware.c
+clang  -DLINUX  -g -O3 -Wall \
+		emfloat.o misc.o nbench0.o nbench1.o sysspec.o hardware.o\
+		-o nbench -lm
+make: Leaving directory `/Users/haohua/Downloads/nbench-byte-2.2.3'
+ 

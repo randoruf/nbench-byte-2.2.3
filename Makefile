@@ -19,8 +19,8 @@ default: nbench
 # You should leave -static in the CFLAGS so that your sysinfo can be
 # compiled into the executable.
 
-# CC = gcc 
-CC = clang
+# CC=gcc 
+CC=/home/haohua/Documents/StrongBox/strongbox-llvm10/build/bin/clang
 
 # generic options for gcc
 # CFLAGS = -s -static -Wall -O3
@@ -151,7 +151,7 @@ nbench: emfloat.o misc.o nbench0.o nbench1.o sysspec.o hardware.o
 
 clean:
 	- /bin/rm -f *.o *~ \#* core a.out hello sysinfo.c sysinfoc.c \
-		 bug pointer pointer.h debugbit.dat
+		 bug pointer pointer.h debugbit.dat nbench
 
 mrproper: clean
 	- /bin/rm -f nbench

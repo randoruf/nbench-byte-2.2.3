@@ -1,187 +1,221 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 3.81
-# Copyright (C) 2006  Free Software Foundation, Inc.
-# This is free software; see the source for copying conditions.
-# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.
+make: *** No rule to make target 'all'.  Stop.
 
-# This program built for i386-apple-darwin11.3.0
- 
-make: *** No rule to make target `all'.  Stop.
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
 
-
-# Make data base, printed on Fri Jul  8 03:45:14 2022
+# Make data base, printed on Fri Jul 15 01:09:13 2022
 
 # Variables
 
+# 'override' directive
+GNUMAKEFLAGS := 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
- 
 # environment
-VSCODE_LOG_NATIVE = false
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-CPPFLAGS = -I/usr/local/opt/llvm/include
+IM_CONFIG_PHASE = 2
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
-# automatic
-@F = $(notdir $@)
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
 # makefile
-CURDIR := /Users/haohua/Downloads/nbench-byte-2.2.3
+CURDIR := /home/haohua/Documents/tests/nbench-byte-2.2.3
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
-_ = /usr/bin/make
-# makefile (from `Makefile', line 29)
+_ = /usr/share/code/code
+# makefile (from 'Makefile', line 29)
 CFLAGS = -g -O3 -Wall
-# makefile (from `Makefile', line 1)
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
 # environment
-VSCODE_VERBOSE_LOGGING = true
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # environment
-__CFBundleIdentifier = com.microsoft.VSCode
+USERNAME = haohua
 # environment
-P9K_SSH = 0
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/c8/q41g17kj78j1t6_4wrf0py2w0000gn/T/vscode-ipc-fe849700-b2c1-4a4f-bf17-343488c295de.sock
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-VSCODE_CWD = /
+CLUTTER_IM_MODULE = xim
 # environment
-PATH = /usr/local/opt/llvm/bin:/usr/local/opt/python@3.10/bin:/Users/haohua/nasm:/usr/local/opt/openjdk@8/bin:/usr/local/opt/ruby/bin:/usr/local/sbin:/Users/haohua/.npm-global/bin:/Users/haohua/.cabal/bin:/Users/haohua/.ghcup/bin:/Users/haohua/opt/anaconda3/bin:/Users/haohua/opt/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/haohua/.cargo/bin
+LESSOPEN = | /usr/bin/lesspipe %s
 # environment
-LSCOLORS = Gxfxcxdxbxegedabagacad
+VSCODE_CWD = /home/haohua
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-VSCODE_LOG_STACK = false
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/haohua-Aspire-EK-571G:@/tmp/.ICE-unix/1763,unix/haohua-Aspire-EK-571G:/tmp/.ICE-unix/1763
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+TEXTDOMAIN = im-config
+# environment
+XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
-# environment
-LDFLAGS = -L/usr/local/opt/llvm/lib
 # default
-.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.JiqE9hK4ph/Listeners
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5159
 # automatic
 %F = $(notdir $%)
 # environment
-CONDA_EXE = /Users/haohua/opt/anaconda3/bin/conda
+DISPLAY = :0
 # environment
-VSCODE_PIPE_LOGGING = true
+GTK_IM_MODULE = ibus
 # environment
-PWD = /Users/haohua/Downloads/nbench-byte-2.2.3
+PWD = /home/haohua/Documents/tests/nbench-byte-2.2.3
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 1840
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-HOME = /Users/haohua
-# default
-MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
-# makefile (from `Makefile', line 98)
+HOME = /home/haohua
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# makefile (from 'Makefile', line 98)
 DEFINES = -DLINUX $(NO_UNAME)
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/haohua/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = /home/haohua/.config/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
 # environment
 LOGNAME = haohua
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
-CONDA_PROMPT_MODIFIER = (base) 
-# environment
-ZSH = /Users/haohua/.oh-my-zsh
-# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+MAKE_VERSION := 4.1
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
-CONDA_DEFAULT_ENV = base
+XDG_VTNR = 2
 # environment
-XPC_FLAGS = 0x0
+MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
+QT_IM_MODULE = ibus
+# environment
 SHLVL = 1
-# makefile (from `Makefile', line 23)
+# makefile (from 'Makefile', line 23)
 CC = clang
-# default
-MAKE_VERSION := 3.81
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+XDG_SESSION_ID = 2
 # environment
 USER = haohua
 # makefile
 .DEFAULT_GOAL := default
 # environment
-LESS = -R
+XDG_CURRENT_DESKTOP = Unity
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
-# environment
-CONDA_SHLVL = 1
 # default
-MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+MAKE_COMMAND := make
 # default
 .VARIABLES := 
-# environment
-TMPDIR = /var/folders/c8/q41g17kj78j1t6_4wrf0py2w0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/haohua/Library/Application Support/Code/1.68.1-main.sock
-# makefile
-MAKEFLAGS = Rrqp
+LANGUAGE = en_AU:en
 # environment
-MFLAGS = -Rrqp
+VSCODE_IPC_HOOK = /run/user/1000/vscode-7f0051e4-1.69.0-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
-# environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.96005311.96005317
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
 # automatic
 +F = $(notdir $+)
 # environment
-__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+NO_AT_BRIDGE = 1
 # environment
-COMMAND_MODE = unix2003
+QT_ACCESSIBILITY = 1
+# environment
+TEXTDOMAINDIR = /usr/share/locale/
 # default
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
-# environment
-PAGER = less
+# makefile (from 'Makefile', line 55)
+MACHINE = 
 # environment
 LC_ALL = C
 # environment
-CONDA_PYTHON_EXE = /Users/haohua/opt/anaconda3/bin/python
+QT4_IM_MODULE = xim
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # automatic
 ^F = $(notdir $^)
- 
 # default
 SUFFIXES := 
 # environment
-SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+CHROME_DESKTOP = code-url-handler.desktop
 # environment
-_CE_M = 
-# makefile (from `Makefile', line 55)
-MACHINE = 
+WINDOWPATH = 2
 # default
-.INCLUDE_DIRS = /usr/local/include
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
-MAKELEVEL := 0
-# environment
-CONDA_PREFIX = /Users/haohua/opt/anaconda3
-# environment
-VSCODE_PID = 10309
-# environment
-_CE_CONDA = 
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
 # environment
 LANG = C
+# environment
+VSCODE_PID = 5159
 # variable set hash-table stats:
-# Load=82/1024=8%, Rehash=0, Collisions=2/106=2%
+# Load=101/1024=10%, Rehash=0, Collisions=14/126=11%
 
 # Pattern-specific Variable Values
 
@@ -189,9 +223,9 @@ LANG = C
 
 # Directories
 
-# . (device 16777224, inode 92927255): 40 files, no impossibilities.
+# . (device 2050, inode 13769274): 38 files, no impossibilities.
 
-# 40 files, no impossibilities in 1 directories.
+# 38 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -209,35 +243,30 @@ mrproper: clean
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 157):
+#  recipe to execute (from 'Makefile', line 157):
 	- /bin/rm -f nbench
-	
 
 # Not a target:
 all:
-#  Command-line target.
+#  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 sysinfoc.c: Makefile
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 103):
+#  recipe to execute (from 'Makefile', line 103):
 	./sysinfo.sh $(CC) $(MACHINE) $(DEFINES) $(CFLAGS)
-	
 
 hardware.o: hardware.c hardware.h Makefile
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 114):
+#  recipe to execute (from 'Makefile', line 114):
 	$(CC) $(MACHINE) $(DEFINES) $(CFLAGS)\
-	-c hardware.c
-	
+		-c hardware.c
 
 # Not a target:
 emfloat.h:
@@ -255,34 +284,25 @@ nbench: emfloat.o misc.o nbench0.o nbench1.o sysspec.o hardware.o
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 146):
+#  recipe to execute (from 'Makefile', line 146):
 	$(CC) $(MACHINE) $(DEFINES) $(CFLAGS) $(LINKFLAGS)\
-	emfloat.o misc.o nbench0.o nbench1.o sysspec.o hardware.o\
-	-o nbench -lm
-	
+		emfloat.o misc.o nbench0.o nbench1.o sysspec.o hardware.o\
+		-o nbench -lm
 
-# Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
+ 
 sysinfo.c: Makefile
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 106):
+#  recipe to execute (from 'Makefile', line 106):
 	./sysinfo.sh $(CC) $(MACHINE) $(DEFINES) $(CFLAGS)
-	
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-08 03:45:13
+#  Last modified 2022-07-14 17:40:24.813295132
 #  File has been updated.
 #  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 wordcat.h:
@@ -294,19 +314,17 @@ nbench0.o: nbench0.h nbench0.c nmglobal.h pointer.h hardware.h Makefile sysinfo.
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 119):
+#  recipe to execute (from 'Makefile', line 119):
 	$(CC) $(MACHINE) $(DEFINES) $(CFLAGS)\
-	-c nbench0.c
-	
+		-c nbench0.c
 
 misc.o: misc.h misc.c Makefile
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 134):
+#  recipe to execute (from 'Makefile', line 134):
 	$(CC) $(MACHINE) $(DEFINES) $(CFLAGS)\
-	-c misc.c
-	
+		-c misc.c
 
 # Not a target:
 sysspec.h:
@@ -324,11 +342,9 @@ nbench1.o: nbench1.h nbench1.c wordcat.h nmglobal.h pointer.h Makefile
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 138):
- 
+#  recipe to execute (from 'Makefile', line 138):
 	$(CC) $(MACHINE) $(DEFINES) $(CFLAGS)\
-	-c nbench1.c
-	
+		-c nbench1.c
 
 default: nbench
 #  Implicit rule search has not been done.
@@ -357,10 +373,9 @@ emfloat.o: emfloat.h emfloat.c nmglobal.h pointer.h Makefile
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 123):
+#  recipe to execute (from 'Makefile', line 123):
 	$(CC) $(MACHINE) $(DEFINES) $(CFLAGS)\
-	-c emfloat.c
-	
+		-c emfloat.c
 
 # Not a target:
 nbench0.c:
@@ -378,10 +393,9 @@ clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 153):
+#  recipe to execute (from 'Makefile', line 153):
 	- /bin/rm -f *.o *~ \#* core a.out hello sysinfo.c sysinfoc.c \
-	bug pointer pointer.h debugbit.dat
-	
+		 bug pointer pointer.h debugbit.dat
 
 # Not a target:
 nbench1.c:
@@ -405,13 +419,12 @@ pointer.h: pointer Makefile
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 127):
+#  recipe to execute (from 'Makefile', line 127):
 	$(CC) $(MACHINE) $(DEFINES) $(CFLAGS)\
-	-o pointer pointer.c
+		-o pointer pointer.c
 	rm -f pointer.h
 	if [ "4" = `./pointer` ] ; then touch pointer.h ;\
 	else echo "#define LONG64" >pointer.h ; fi
-	
 
 # Not a target:
 nmglobal.h:
@@ -423,10 +436,9 @@ sysspec.o: sysspec.h sysspec.c nmglobal.h pointer.h Makefile
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 142):
+#  recipe to execute (from 'Makefile', line 142):
 	$(CC) $(MACHINE) $(DEFINES) $(CFLAGS)\
-	-c sysspec.c
-	
+		-c sysspec.c
 
 # Not a target:
 nbench1.h:
@@ -438,15 +450,16 @@ nbench1.h:
 # Load=32/1024=3%, Rehash=0, Collisions=0/86=0%
 # VPATH Search Paths
 
-# No `vpath' search paths.
+# No 'vpath' search paths.
 
-# No general (`VPATH' variable) search path.
+# No general ('VPATH' variable) search path.
 
-# # of strings in strcache: 1
-# # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+# strcache buffers: 1 (0) / strings = 57 / storage = 590 B / avg = 10 B
+# current buf: size = 8162 B / used = 590 B / count = 57 / avg = 10 B
 
-# Finished Make data base on Fri Jul  8 03:45:14 2022
+# strcache performance: lookups = 115 / hit rate = 50%
+# hash-table stats:
+# Load=57/8192=1%, Rehash=0, Collisions=1/115=1%
+# Finished Make data base on Fri Jul 15 01:09:13 2022
 
  
